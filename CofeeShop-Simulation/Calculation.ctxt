@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Calculation
+comment0.text=\r\n\ Contains\ all\ the\ different\ functions\ to\ make\ calculation\ such\ as\ netProfit,overflow\ percentage\ \r\n\r\n\ @author\ Tafita\ Rakoto\r\n\ @version\ 1\r\n
+comment1.params=
+comment1.target=Calculation()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Calculation\r\n
+comment2.params=total_profit\ c\ s
+comment2.target=float\ calculateNetProfit(int,\ float,\ int)
+comment2.text=\r\n\ \ calulates\ net\ profit\ \r\n\ \r\n\ @param\ total_profit\ total\ profit\ \r\n\ @param\ \ c\ \ cost\ \r\n\ @param\ \ s\ salary\ of\ the\ cashiers\ \r\n\ @return\ netprofit\ \r\n\ \r\n
+comment3.params=p\ num_of_served
+comment3.target=float\ calculateTotalProfit(float,\ int)
+comment3.text=\r\n\ Calculate\ Total\ Profit\ \r\n\ \r\n\ @param\ \ p\ profit\ \r\n\ @param\ \ num_of_served\ number\ of\ costumer\ served\ \r\n\ @return\ totalprofit\ \r\n\ \r\n
+comment4.params=s\ c
+comment4.target=float\ calculateTotalCost(int,\ float)
+comment4.text=\r\n\ calulates\ the\ total\ cost\ \r\n\ \r\n\ @param\ c\ number\ of\ cashiers\ \r\n\ @param\ s\ number\ of\ salary\ \ \r\n\ @return\ totalcost\ \r\n\ \r\n
+comment5.params=num_of_served\ overflow
+comment5.target=float\ calculateOverFlow(int,\ int)
+comment5.text=\r\n\ calulates\ the\ the\ overflow\ rate\ of\ the\ coffee\ shop\r\n\ \r\n\ @param\ int\ num_of_served\ @param\ int\ overflow\r\n\ @return\ overflow_rate\r\n\ \r\n
+comment6.params=waittime
+comment6.target=int\ maxWaitTime(java.util.ArrayList)
+comment6.text=\r\nreturns\ the\ max\ waiting\ time\ from\ the\ arraylist\ of\ waitimes\ \r\n\ \r\n\ @param\ ArrayList\ <Customer>\ waittime\r\n\ @return\ max_wait_time\r\n\ \r\n
+comment7.params=waittime
+comment7.target=int\ avgWaitTime(java.util.ArrayList)
+comment7.text=\r\n\ returns\ the\ average\ waittime\ \r\n\ \r\n\ @param\ ArrayList\ <Customer>\ waittime\r\n\ @return\ avg_wait_time\r\n\ \r\n
+numComments=8

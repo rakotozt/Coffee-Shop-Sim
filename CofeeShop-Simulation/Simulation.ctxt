@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Simulation
+comment0.text=\r\n\ Cofee\ Shop\ Simulation\ Main\ \r\n\r\n\ @author\ Tafita\ Rakotozandry\r\n\ @version\ 1\r\n
+comment1.params=
+comment1.target=Simulation()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cf\r\n
+comment2.params=cashiers
+comment2.target=void\ fileReading(int)
+comment3.params=cashiers
+comment3.target=void\ run(int)
+comment3.text=\r\n\ Run\ the\ program\ \r\n\ \r\n\ @param\ cashiers\ the\ number\ of\ cashiers\ \r\n
+comment4.params=input
+comment4.target=java.lang.String[]\ timeReading(java.lang.String)
+comment4.text=\r\n\ stringSplit\ returns\ an\ array\ that\ has\ the\ arrival\ time\ of\ the\ customer\r\n\ split\ into\ the\ indexes\ of\ the\ array\ \ \r\n\ \r\n\ @param\ String\ time\r\n\ @return\ String\ []\ time_a\r\n\ \r\n
+comment5.params=time
+comment5.target=int\ hours_to_seconds(java.lang.String[])
+comment5.text=\r\n\ Convert\ time\ from\ Hours\ to\ Seconds\r\n\ \r\n\ @param\ time\ array\ of\ time\ containeing\ hours,minute\ and\ second\ \r\n\ @return\ int\ time_conv\r\n\ \r\n
+comment6.params=e
+comment6.target=void\ addToWaitingEvents(Event)
+comment6.text=\r\n\ addToPQ\ methods\ adds\ an\ instance\ of\ event\ to\ Priority\ Queue\r\n\ \r\n\ @param\ Event\ e\ \r\n
+comment7.params=
+comment7.target=java.util.PriorityQueue\ getWaitingEvents()
+comment7.text=\r\n\ Returns\ waiting\ Events\r\n\ \r\n\ @return\ waiting\ events\ \r\n
+numComments=8
